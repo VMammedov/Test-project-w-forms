@@ -32,6 +32,7 @@ namespace Test
             streamWriter.Close();
 
             MessageBox.Show("Fayl ugurla yaradildi!", "Ugurlu Emeliyyat", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("Fayl ugurla yaradildi!", "Ugurlu Emeliyyat", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void button2_Click(object sender, EventArgs e)
