@@ -32,6 +32,7 @@ namespace Test
             streamWriter.Close();
 
             MessageBox.Show("Fayl ugurla yaradildi!", "Ugurlu Emeliyyat", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("Fayl ugurla yaradildi!", "Ugurlu Emeliyyat", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -39,6 +40,15 @@ namespace Test
             string path = Directory.GetCurrentDirectory() + @"\..\..\..\..\" + textBox1.Text + ".txt";
             FileInfo fileInfo = new FileInfo(path);
             fileInfo.Delete();
+            MessageBox.Show("Fayl ugurla silindi!", "Ugurlu Emeliyyat", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            MessageBox.Show("Fayl ugurla silindi!", "Ugurlu Emeliyyat", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            MessageBox.Show("Fayl ugurla silindi!", "Ugurlu Emeliyyat", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            MessageBox.Show("Fayl ugurla silindi!", "Ugurlu Emeliyyat", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            MessageBox.Show("Fayl ugurla silindi!", "Ugurlu Emeliyyat", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            MessageBox.Show("Fayl ugurla silindi!", "Ugurlu Emeliyyat", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            MessageBox.Show("Fayl ugurla silindi!", "Ugurlu Emeliyyat", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            MessageBox.Show("Fayl ugurla silindi!", "Ugurlu Emeliyyat", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            MessageBox.Show("Fayl ugurla silindi!", "Ugurlu Emeliyyat", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             MessageBox.Show("Fayl ugurla silindi!", "Ugurlu Emeliyyat", MessageBoxButtons.OK, MessageBoxIcon.Warning);
         }
     }
